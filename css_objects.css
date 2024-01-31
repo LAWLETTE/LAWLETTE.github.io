@@ -1,0 +1,36 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Sep 25, 2022, 9:03:42 AM
+    Author     : Garci
+*/
+BODY {
+margin: 0;
+    background: url(Imagenes/inicio.jpg);
+    background-size: cover;
+    
+font-family : arial;
+color: white;
+margin: 25px;
+padding: auto;
+} 
+.btn{
+ border: 3px solid rgba(100,100,100,0.1);
+ margin-bottom: 20px;
+ padding: 20px;
+ width: 300px;
+ font-family: 'Poppins', sans-serif;
+ font-size: 16px;
+ border-radius: 8px;
+ cursor: pointer;
+ color: #FFF;
+background-size: 300%;
+transition: 0.05s;}
+.btn:hover{
+    background-position: center;
+}
+.btn1{
+    background-image: linear-gradient(to left, #FF5733, #B81E57, #FF5733); 
+}
